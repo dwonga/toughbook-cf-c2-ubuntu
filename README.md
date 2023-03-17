@@ -27,6 +27,6 @@ We will do it by using crontab
 
 1. crontab -e
 2. add this line at first:
-@reboot      amixer -c 1 set Headphone playback 100% unmute
+@reboot      /usr/bin/amixer -c 1 set Headphone playback 100% unmute
 
 (Thanks to hestela for their solutions)
